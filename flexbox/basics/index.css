@@ -1,0 +1,22 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-end; /* center, space-around, space-between, space-evenly, flex-start, flex-end */
+    height: 100%;
+    align-items: center;
+}
+
+.logout {
+    align-self: flex-start;
+}
+
+.home {
+    align-self : flex-end;
+
+}
+
+/* flex-grow, flex-shrink, flex-basis */
+/* .home, .logout {
+    flex: 1; 
+} */
